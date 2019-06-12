@@ -1,7 +1,7 @@
-# Sobre o projeto
+# About the project
 
-[Saiba Mais](https://medium.com/@brunoandrade.me/construindo-uma-plataforma-de-ensino-open-source-para-a-comunidade-de-tecnologia-d6fb11b280ec)
+[Know more](https://medium.com/@brunoandrade.me/construindo-uma-plataforma-de-ensino-open-source-para-a-comunidade-de-tecnologia-d6fb11b280ec)
 
-# Sugira novas Features
-[Sugerir](https://github.com/brdeveloper/studay/issues/1)
+# Suggest New Features
+[Suggest](https://github.com/brdeveloper/studay/issues/1)
 
