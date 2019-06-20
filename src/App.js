@@ -1,10 +1,19 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 
 import Signin from '~/pages/Auth/Signin';
 
+import GlobalStyle from '~/styles/global';
+import theme from '~/styles/theme';
+
 const App = () => (
   <>
-    <Signin />
+    <ThemeProvider theme={theme}>
+      <>
+        <Signin />
+        <GlobalStyle />
+      </>
+    </ThemeProvider>
   </>
 );
 
