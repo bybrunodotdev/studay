@@ -859,7 +859,7 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.5":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
   integrity sha512-TuI4qpWZP6lGOGIuGWtp9sPluqYICmbk8T/1vpSysqJxRPkudh/ofFWyqdcMsDf2s7KvDL4/YHgKyvcS3g9CJQ==
@@ -984,7 +984,7 @@
   resolved "https://registry.yarnpkg.com/@firebase/firestore-types/-/firestore-types-1.4.0.tgz#5cf923a960df967051ae51869add0cf0961e5346"
   integrity sha512-/3e4L+HcyZo0J2LT2Pj4jxs7OkElgKUezu3tllwUjxq1c5l6yRMwLOncoUhAC4fSddinrgBWJmE+LWcIgk4ZGg==
 
-"@firebase/firestore@1.4.0":
+"@firebase/firestore@1.4.0", "@firebase/firestore@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-1.4.0.tgz#250204063111df318caf0bba7be2665420761c6b"
   integrity sha512-UtVjaQ/M7smQthvlwGOdcqapp2hfZt+ylvi+IxXQc2tjY9zeaFQX96ZUYCuxTTSWUgn9Qld98W3pNufZDzbqOw==
@@ -8773,6 +8773,13 @@ recursive-readdir@2.2.2:
   integrity sha512-nRCcW9Sj7NuZwa2XvH9co8NPeXUBhZP7CRKJtU+cS6PW9FpCIFoI5ib0NT1ZrbNuPoRy0ylyCaUL8Gih4LSyFg==
   dependencies:
     minimatch "3.0.4"
+
+redux-saga-firebase@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/redux-saga-firebase/-/redux-saga-firebase-0.15.0.tgz#84f4bd3f07d7b9b24a705e1b18a842bcd45cae60"
+  integrity sha512-VcoIL9e0BPLBXM7GOrwdp6m1LyfP2CnInwveqHdUJyPdFieM77pe5kxacSq/RCvCVvxeIyqvLmpJLar+N8FPvw==
+  dependencies:
+    "@babel/runtime" "^7.2.0"
 
 redux-saga@^1.0.3:
   version "1.0.3"
