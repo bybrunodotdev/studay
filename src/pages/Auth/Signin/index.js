@@ -2,6 +2,10 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-const Signin = () => <div />;
+const Signin = () => (
+  <>
+    <p>Funcionou</p>
+  </>
+);
 
 export default Signin;

@@ -1,5 +1,11 @@
 import React from 'react';
 
-const App = () => <div />;
+import Signin from '~/pages/Auth/Signin';
+
+const App = () => (
+  <>
+    <Signin />
+  </>
+);
 
 export default App;
