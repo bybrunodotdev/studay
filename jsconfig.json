@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "exclude": ["build", "node_modules", "static"]
+}
