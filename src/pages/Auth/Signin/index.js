@@ -1,11 +1,13 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
+
+import SigninForm from '~/components/Auth/SigninForm';
 
 const Signin = () => (
-  <>
-    <p>Funcionou</p>
-  </>
+  <Container>
+    <SigninForm />
+  </Container>
 );
 
 export default Signin;

@@ -7,14 +7,12 @@ import GlobalStyle from '~/styles/global';
 import theme from '~/styles/theme';
 
 const App = () => (
-  <>
-    <ThemeProvider theme={theme}>
-      <>
-        <Signin />
-        <GlobalStyle />
-      </>
-    </ThemeProvider>
-  </>
+  <ThemeProvider theme={theme}>
+    <>
+      <Signin />
+      <GlobalStyle />
+    </>
+  </ThemeProvider>
 );
 
 export default App;

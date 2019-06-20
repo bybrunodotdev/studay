@@ -17,6 +17,8 @@
   },
   "plugins": ["react", "jsx-a11y", "import"],
   "rules": {
+    "linebreak-style": 0,
+    "import/prefer-default-export": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
   "settings": {
