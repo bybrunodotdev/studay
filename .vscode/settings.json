@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "flow.useNPMPackagedFlow": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80, 120],
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true,
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "search.exclude": {
+    "**/build/**": true,
+    "**/node_modules/**": true,
+    "**/__generated__/**": true
+  }
+}
