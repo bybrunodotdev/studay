@@ -16,7 +16,7 @@ const GuestRoute = ({ component: Component, ...props }) => (
       if (store.getState().auth.signedIn) {
         return renderMergedProps(Component, renderProps, props);
       }
-      return <Redirect to={{ pathname: '/dashboard', state: { from: renderProps.location } }} />;
+      return <Redirect to={{ pathname: '/', state: { from: renderProps.location } }} />;
     }}
   />
 );
