@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 import { ConnectedRouter } from 'connected-react-router';
 
 import GuestRoute from './guest';
@@ -8,12 +8,13 @@ import history from '~/history';
 
 // Import Components
 import Signin from '~/pages/Auth/Signin';
+import Dashboard from '~/pages/Dashboard';
 
 const Routes = () => (
   <ConnectedRouter history={history}>
     <Switch>
       <GuestRoute exact path="/" component={Signin} />
-      <Route exact path="*" />
+      <PrivateRoute exact path="/dashboard" component={Dashboard} />
     </Switch>
   </ConnectedRouter>
 );
