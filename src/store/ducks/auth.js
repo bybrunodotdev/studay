@@ -13,12 +13,12 @@ export default Creators;
 
 // The initial state
 const INITIAL_STATE = Immutable({
-  signedIn: !!localStorage.getItem('@studay:accessToken'),
-  accessToken: localStorage.getItem('@studay:accessToken') || null,
+  signedIn: !!localStorage.getItem('@studay:idToken'),
+  idToken: localStorage.getItem('@studay:idToken') || null,
 });
 
 // Reducers
-export const success = (state, { accessToken }) => state.merge({ signedIn: true, accessToken });
+export const success = (state, { idToken }) => state.merge({ signedIn: true, idToken });
 
 export const failure = (state, { error }) => state.merge({ signedIn: false, error });
 

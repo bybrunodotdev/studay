@@ -9,12 +9,20 @@ const authProvider = new firebase.auth.GoogleAuthProvider();
 
 export function* SignIn() {
   try {
-    const data = yield call(apiFirebase.auth.signInWithPopup, authProvider);
+    const { idToken } = yield call(
+      apiFirebase.auth.signInWithPopup,
+      authProvider,
+    );
 
     // Storing accessToken in localStorage
-    localStorage.setItem('@studay:accessToken', data.accessToken);
+    // localStorage.setItem('@studay:idToken', idToken);
 
-    yield put(AuthActions.signInSuccess(data.accessToken));
+    const { displayName } = firebase.auth().currentUser;
+    const { photoURL } = firebase.auth().currentUser;
+    const { uid } = firebase.auth().currentUser;
+    const { metadata } = firebase.auth().currentUser;
+
+    yield put(AuthActions.signInSuccess(idToken));
     yield put(push('/dashboard'));
   } catch (error) {
     yield put(AuthActions.signInFailure(error));
