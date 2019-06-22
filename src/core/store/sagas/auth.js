@@ -3,7 +3,7 @@ import {
   all, call, put, fork, takeEvery,
 } from 'redux-saga/effects';
 import { push } from 'connected-react-router';
-import apiFirebase from '~/services/firebase';
+import apiFirebase from '~/core/services/firebase';
 
 import AuthActions, { AuthTypes } from '../ducks/auth';
 

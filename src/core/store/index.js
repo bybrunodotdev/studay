@@ -2,7 +2,7 @@ import { createStore, compose, applyMiddleware } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import { routerMiddleware } from 'connected-react-router';
 
-import history from '~/history';
+import history from '~/core/history';
 import rootReducer from './ducks';
 import rootSaga from './sagas';
 
@@ -22,7 +22,10 @@ const composeSetup =
     : compose;
 /* eslint-anable */
 
-const store = createStore(rootReducer(history), composeSetup(applyMiddleware(...middlewares)));
+const store = createStore(
+  rootReducer(history),
+  composeSetup(applyMiddleware(...middlewares)),
+);
 
 sagaMiddleware.run(rootSaga);
 

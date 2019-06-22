@@ -4,11 +4,11 @@ import { ConnectedRouter } from 'connected-react-router';
 
 import GuestRoute from './guest';
 import PrivateRoute from './private';
-import history from '~/history';
+import history from '~/core/history';
 
 // Import Components
-import Signin from '~/pages/Auth/Signin';
-import Dashboard from '~/pages/Dashboard';
+import Signin from '~/views/pages/Auth/Signin';
+import Dashboard from '~/views/pages/Dashboard';
 
 const Routes = () => (
   <ConnectedRouter history={history}>

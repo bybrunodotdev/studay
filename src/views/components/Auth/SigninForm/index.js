@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 
-import store from '~/store';
+import store from '~/core/store';
 
 import { Container } from './styles';
 

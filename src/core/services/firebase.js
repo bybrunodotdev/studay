@@ -1,5 +1,5 @@
 import firebase from 'firebase';
-import '@firebase/firestore'; // 👈 If you're using firestore
+import '@firebase/firestore';
 import ReduxSagaFirebase from 'redux-saga-firebase';
 
 const firebaseApp = firebase.initializeApp({
