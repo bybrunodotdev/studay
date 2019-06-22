@@ -1,7 +1,7 @@
 [![CircleCI](https://circleci.com/gh/r-park/soundcloud-redux.svg?style=shield&circle-token=f1dddd8dfa05f08655f30b7d7451d23360f63652)](https://circleci.com/gh/r-park/soundcloud-redux)
 
 
-# Studay - Plataforma de ensino Open Source
+# Studay - Plataforma de ensino Open Source 🤓
 
 Encontre conteúdos gratuitos centralizados em um único lugar. [Saiba mais](https://medium.com/@brunoandrade.me/construindo-uma-plataforma-de-ensino-open-source-para-a-comunidade-de-tecnologia-d6fb11b280ec).
 
