@@ -6,7 +6,7 @@ Encontre conteúdos gratuitos centralizados em um único lugar. [Saiba mais](htt
 Stack
 -----
 
-- React (Create-React-App)
+- React (CRA) + Hooks 💜 ⚛
 - Styled-components
 - Redux
 - Prop-types
