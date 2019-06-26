@@ -19,9 +19,11 @@ function* SignIn() {
     // Storing accessToken in localStorage
     localStorage.setItem('@studay:idToken', idToken);
 
-    const { uid } = firebase.auth().currentUser;
-    const { displayName } = firebase.auth().currentUser;
-    const { photoURL } = firebase.auth().currentUser;
+    const {
+      uid,
+      displayName,
+      photoURL,
+    } = firebase.auth().currentUser;
 
     const data = {
       idToken,
