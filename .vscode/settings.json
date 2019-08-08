@@ -4,7 +4,6 @@
   "javascript.format.enable": false,
   "javascript.validate.enable": false,
   "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
   "editor.rulers": [80, 120],
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -12,6 +11,12 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "javascriptreact", "autoFix": true }
+  ],
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
   "[html]": {
