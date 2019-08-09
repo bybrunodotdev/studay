@@ -7,9 +7,21 @@
     "@types/node": "12.7.1",
     "@types/react": "16.8.25",
     "@types/react-dom": "16.8.5",
+    "connected-react-router": "^6.5.2",
+    "firebase": "^6.3.4",
+    "history": "^4.9.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0-rc.1",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5",
+    "redux-saga-firebase": "^0.15.0",
+    "reduxsauce": "^1.1.0",
+    "seamless-immutable": "^7.1.4",
+    "styled-components": "^4.3.2",
     "typescript": "3.5.3"
   },
   "scripts": {
@@ -34,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react-redux": "^7.1.1",
+    "@types/styled-components": "^4.1.18",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
     "eslint-config-airbnb": "^17.1.1",
