@@ -1,4 +1,4 @@
-# Contribua com ferramenta New School
+# Contribua no desenvolvimento da New School
 
 Formando protagonistas da quebrada levando educação de qualidade através da tecnologia e da curadoria de conteúdo.
 
