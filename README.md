@@ -1,50 +1,7 @@
-# Studay - Plataforma de ensino Open Source 🤓
+# Contribua com ferramenta New School
 
-Encontre conteúdos gratuitos centralizados em um único lugar. [Saiba mais](https://medium.com/@brunoandrade.me/construindo-uma-plataforma-de-ensino-open-source-para-a-comunidade-de-tecnologia-d6fb11b280ec).
+Formando protagonistas da quebrada levando educação de qualidade através da tecnologia e da curadoria de conteúdo.
 
+[Saiba mais sobre a New School](http://www.newschool10.com.br)
 
-Stack
------
-
-- React (CRA) + Hooks 💜 ⚛
-- Styled-components
-- Redux
-- Prop-types
-- React-Redux
-- Reduxsauce
-- React-Router
-- Connected-react-router
-- Redux-Saga
-- Seamless-immutable
-- Firebase
-- Redux-saga-firebase
-
-Começando
------------
-
-```shell
-$ git clone git@github.com:brdeveloper/studay.git
-$ cd studay
-$ npm install
-$ npm start
-```
-
-### Crie um arquivo .env na raiz do projeto e conecte a sua aplicação criada no firebase
-|Configurações .env|
-|---|
-|REACT_APP_API_KEY|
-|REACT_APP_AUTH_DOMAIN|
-|REACT_APP_DATABASE_URL|
-|REACT_APP_PROJECT_ID|
-|REACT_APP_STORAGE_BUCKET|
-|REACT_APP_MESSAGING_SENDER_ID|
-|REACT_APP_APP_ID|
-
-
-Descrição dos comandos
-------------
-
-|Comando|Descrição|
-|---|---|
-|npm start|Inicia o modo de desenvolvimento @ **localhost:3000**|
-|npm run build|Contrui a aplicação para produção na pasta **./build**|
+[Contribuir](https://newschoolapp.com.br/contribua)
